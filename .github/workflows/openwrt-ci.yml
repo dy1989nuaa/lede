@@ -150,7 +150,6 @@ jobs:
           CONFIG_PACKAGE_6in4=y
           CONFIG_PACKAGE_ca-bundle=y
           CONFIG_PACKAGE_curl=y
-          CONFIG_PACKAGE_dnsmasq=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_PACKAGE_frpc=y
           CONFIG_PACKAGE_ip6tables=y
