@@ -100,6 +100,8 @@ jobs:
           CONFIG_TARGET_x86=y
           CONFIG_TARGET_x86_64=y
           CONFIG_TARGET_x86_64_Generic=y
+          CONFIG_EFI_IMAGES=y
+          # CONFIG_GRUB_IMAGES is not set
           CONFIG_LIBCURL_COOKIES=y
           CONFIG_LIBCURL_FILE=y
           CONFIG_LIBCURL_FTP=y
@@ -150,6 +152,7 @@ jobs:
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_PACKAGE_frpc=y
+          CONFIG_PACKAGE_grub2-efi=y
           CONFIG_PACKAGE_ip6tables=y
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_kcptun-client=y
